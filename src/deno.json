@@ -4,6 +4,7 @@
     "start": "deno run -A --node-modules-dir npm:astro dev",
     "build": "deno run -A --node-modules-dir npm:astro build",
     "preview": "deno task build && deno run -A ./dist/server/entry.mjs",
-    "astro": "deno run -A --node-modules-dir npm:astro"
+    "astro": "deno run -A --node-modules-dir npm:astro",
+    "setup": "npm i"
   }
 }
