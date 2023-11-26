@@ -5,4 +5,5 @@ import deno from "npm:@astrojs/deno@4.2.0";
 export default defineConfig({
     adapter: deno(),
     output: 'server',
+    url: "https://{vanity}.deno.dev"
 });
